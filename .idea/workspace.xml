@@ -10,27 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d71d3397-71e0-4e4b-9cbd-70743496e276" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/domain/util/EntityMapper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/network/model/RecipeNetworkEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/network/model/RecipeNetworkMapper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0-rc-1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0-rc-1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/network/RecipeService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/network/model/RecipeDtoMapper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/network/responses/RecipeSearchResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/repository/RecipeRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/repository/RecipeRepository_Impl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/domain/model/Recipe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/domain/model/Recipe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/domain/util/EntityMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/domain/util/DomainMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/network/model/RecipeNetworkEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/network/model/RecipeDTO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/banerjee/mvvmrecipeapp/network/model/RecipeNetworkMapper.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[W8AAUKNNA6NR9XOZ]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\baner\.android\avd\Nexus_5_API_25.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -41,6 +37,7 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -184,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618939138548</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Domain model added, Network Entity added, Network Mapper added">
+      <created>1618965707448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618965707448</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +196,7 @@
     <MESSAGE value="initial commit, Jetpack compose setup done" />
     <MESSAGE value="Column and Row tested" />
     <MESSAGE value="Domain Recipe model added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Domain Recipe model added" />
+    <MESSAGE value="Domain model added, Network Entity added, Network Mapper added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Domain model added, Network Entity added, Network Mapper added" />
   </component>
 </project>
