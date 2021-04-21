@@ -18,15 +18,22 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.banerjee.mvvmrecipeapp.domain.model.Recipe
+import com.banerjee.mvvmrecipeapp.network.model.RecipeNetworkEntity
+import com.banerjee.mvvmrecipeapp.network.model.RecipeNetworkMapper
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, RecipeListFragment())
-            .commit()
+        val mapper = RecipeNetworkMapper()
+
+        val recipe = Recipe()
+
+        val networkEntity: RecipeNetworkEntity = mapper.mapToEntity(recipe)
+
+        val r: Recipe = mapper.mapFromEntity(networkEntity)
     }
 }
 
